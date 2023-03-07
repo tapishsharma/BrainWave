@@ -1,0 +1,548 @@
+/* font imports */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+* {
+  text-decoration: none;
+}
+body {
+  background-color: #414141;
+}
+
+
+
+/* ------------------------------------------------------------ */
+/* home-screen-styles */
+.in-one-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.home-screen-banner {
+  margin-top: 11rem;
+  margin-left: 8rem;
+}
+
+/* image of home screen banner */
+.home-screen-banner img {
+  width: 400px;
+  height: 400px;
+}
+.home-screen-content {
+  display: block;
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: 5rem;
+}
+.home-screen-heading {
+  border: 4px solid #000000;
+  border-radius: 20px;
+  padding: 0.3rem 2rem;
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.pink-highlight {
+  color: #ff7d7d;
+}
+.home-screen-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.consult-doctor-btn {
+  color: #393939;
+  font-size: 20px;
+  background-color: #f0cb0b;
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  /* give margin of 5rem between all elements inside it */
+  margin-right: 3rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  font-size: 26px;
+}
+.write-diary-btn {
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #00882e;
+  padding: 1rem 2.2rem;
+  border-radius: 10px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  font-size: 26px;
+}
+.consult-doctor-btn:hover {
+  color: #000000;
+  /* underline text */
+  text-decoration: underline;
+}
+.write-diary-btn:hover {
+  /* underline text */
+  text-decoration: underline;
+}
+/* ------------------------------------------------------------ */
+
+
+
+
+/* ------------------------------------------------------------ */
+/* header-component-styles */
+nav {
+  float: right;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+nav > ul > li > a {
+  color: rgb(255, 255, 255);
+  display: block;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.logo-img {
+  float: left;
+  position: relative;
+  margin: 10px 15px 15px 10px;
+}
+.header-logo-png {
+  margin-top: 0.4rem;
+  height: 40px;
+}
+.header-title {
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: 4px solid #ffffff;
+}
+.bg-div {
+  overflow: hidden;
+}
+.header-li-link {
+  border-bottom: 2px solid #ff8282;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 2.2rem;
+  padding: 0 0.5rem;
+}
+.header-li-link:hover {
+  color: #e2e2e2;
+}
+.header-signup-btn {
+  margin-right: 2rem;
+  margin-left: 4rem;
+  margin-top: 0.5rem;
+  color: #000000;
+  font-size: 20px;
+  background-color: #ef9c9c;
+  padding: 0.7rem 1.2rem;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  font-family: "Nunito", sans-serif;
+  font-weight: dark;
+}
+.header-signup-btn:hover {
+  /* underline text */
+  text-decoration: underline;
+}
+.header-component-root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #414141;
+}
+/* ------------------------------------------------------------ */
+
+/* services-cards-component-styles */
+
+.services-heading-box {
+  margin: 8rem 0 2rem 4rem;
+}
+.services-heading{
+  font-family: "Nunito", sans-serif;
+  font-size:25px;
+  font-weight: bolder;
+  border: 2px solid #000000;
+  max-width: fit-content;
+  border-radius: 10px;
+  padding: 1rem 2.7rem;
+  background-color: #FF8989;
+  
+}
+.services-cards-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services-card {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 1rem 0rem;
+  background-color: #525252;
+  max-width: 400px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.services-card-image-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.services-card-image {
+  width: 80px;
+  height: 80px;
+}
+.services-card-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.services-card-heading {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+.services-card-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  padding: 0 1rem;
+}
+.services-card-button-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.services-card-button {
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #000000;
+  padding: 0.7rem 1.6rem;
+  border-radius: 10px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+}
+.services-card-button:hover {
+  /* underline text */
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------------------ */
+
+/* pricing-cards-component-styles */
+.pricing-heading-container {
+  margin: 8rem 0 2rem 4rem;
+}
+.pricing-heading {
+  font-family: "Nunito", sans-serif;
+  font-size:25px;
+  font-weight: bolder;
+  border: 2px solid #000000;
+  max-width: fit-content;
+  border-radius: 10px;
+  padding: 1rem 2.7rem;
+  background-color: #FF8989;
+}
+.pricing-cards-component-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;  
+}
+.pricing-cards-component-card {
+  border: 2px solid #000000;
+  padding: 2.5%;
+  border-radius: 10px;
+  background-color: #525252;
+}
+
+.pricing-cards-component-card-header-plan-name-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+  padding: 0 1rem;
+  padding-bottom: 0.5rem;
+}
+.price-plan-1 {
+  color: #19f811;
+  border-bottom: 2px solid #07db00;
+}
+.price-plan-2 {
+  color: #ffde20;
+  border-bottom: 2px solid #ffde20;
+}
+.pricing-cards-component-card-header-plan-image {
+  width: 80px;
+  height: 80px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pricing-cards-component-card-header-plan-price-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffde20;
+  text-align: center;
+  margin-top: 2.2rem;
+  border-bottom: 2px solid #ffde20;
+  max-width: fit-content;
+
+}
+
+.pricing-cards-component-card-services-list li {
+  list-style-type: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 4rem;
+}
+.pricing-cards-component-card-services-list li a {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+.pricing-cards-component-card-services-list li a:hover {
+  /* underline text */
+  text-decoration: underline;
+}
+.fa-check {
+  color: #00882e;
+  padding: 0 0.5rem 0 0;
+}
+.fa-times {
+  color: #ff0000;
+  padding: 0 0.5rem 0 0;
+}
+.pricing-cards-component-card-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.pricing-cards-component-card-button {
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #000000;
+  padding: 0.7rem 1.6rem;
+  border-radius: 10px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+}
+.pricing-cards-component-card-button:hover {
+  /* underline text */
+  text-decoration: underline;
+}
+
+
+/* ------------------------------------------------------------ */
+
+/* footer-component-styles */
+.footer-container {
+  border-top: 2px solid #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.about-us-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  padding: 0 1rem;
+}
+.contact-footer-button {
+  margin-top: 2.9rem;
+  color: #000000;
+  font-size: 15px;
+  background-color: #E3C527;
+  padding: 1rem 1.6rem;
+  border-radius: 1.6rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  pointer-events: none;
+  border: none;
+}
+.footer-payment-methods-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #040404;
+  text-align: center;
+  padding: 0 1rem 0.5rem 1rem;
+  border-bottom: 2px solid #000000;
+}
+.footer-payment-images {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 30px;
+  height: 30px;
+}
+
+
+/* ------------------------------------------------------------ */
+/* media queries to show in block */
+@media screen and (max-width: 600px) {
+  .in-one-row {
+    flex-direction: column;
+  }
+  .home-screen-banner {
+    /* align in middle */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home-screen-banner img {
+    width: 300px;
+    height: 300px;
+  }
+  .home-screen-heading {
+    margin: 2rem auto;
+    padding: 0 1rem;
+    /* make font-size to fit in box */
+    font-size: 17px;
+  }
+  .home-screen-content {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home-screen-buttons {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  .consult-doctor-btn {
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 1rem;
+    font-size: 16px;
+    margin-right: 1.5rem;
+  }
+  .write-diary-btn {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+  }
+  .header-title {
+    font-size: 20px;
+  }
+  .header-li-link {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 2rem;
+    padding: 0 0.5rem;
+  }
+  .header-signup-btn {
+    margin-top: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+  }
+  .services-heading-box {
+    margin: 5rem 0 0rem 0rem;
+  }
+  .services-heading {
+    font-size: 20px;
+  }
+  .services-cards-box{
+    /* display each card in seperate line */
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing-heading-container {
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pricing-heading {
+    font-size: 20px;
+  }
+  .pricing-cards-component-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  .pricing-cards-component-card {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+  .pricing-cards-component-card-header-plan-price-text  {
+    margin-left: 1.5rem;
+  }
+
+  .footer-container {
+   display: flex;
+    flex-direction: column;
+  }
+  .about-us-text {
+    margin-top: 2rem;
+    /* justify font */
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  .contact-footer-button {
+    margin-top: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+  }
+  .footer-payment-methods-text {
+    font-size: small;
+  }
+  .payment-methods-images-inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .payment-methods-images-inline img {
+    width: 30px;
+    height: 30px;
+  }
+ 
+}
